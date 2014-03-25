@@ -1,0 +1,12 @@
+.wrapper550{
+    width: 960px;
+    height:720px;
+    margin: 0 auto;
+}
+
+.thumbnail{
+    display: inline-block;
+    margin:5px;
+    width:100px;    
+    height:100px;    
+}
