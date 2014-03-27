@@ -9,32 +9,46 @@
 </head>
 <body>
     <div class="wrapper550">
-        <div class="column half">
-            <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
-            <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
-            <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
-            <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
-            <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
-            <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
-            <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
-            <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
-            <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
-            <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
-            <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
-            <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
-            
-        </div>
-        <div class="column half">
-            <!-- <div id="canvas"></div> -->
-            <div id="cCamera"> 
-                <video id="video" width="435" height="550" autoplay data-state="on"></video>
-                <button id="snap">Snap Photo</button>
-                <canvas id="canvas2" width="640" height="480"></canvas>
+        <div class="content">
+            <div class="row clearfix">
+                <div class="column half">
+                    <div id="logo"></div>
+                    <div class="gerard"></div>
+                    <div class="showThumbnail"></div>
+                    <div class="thumbnailContainer hidden">
+                        <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
+                        <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/nico.png">
+                        <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/ninja.png">
+                        <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/sheldon.png">
+                        <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/eddy.png">
+                        <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
+                        <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
+                        <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
+                        <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
+                        <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
+                        <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
+                        <img class="thumbnail" src="assets/img/cadre/thumbnail/einstein.png" alt="Einstein" data-url="assets/img/cadre/large/einstein.png">
+                    </div>
+                </div>
+                <div class="column half">
+                    <!-- <div id="canvas"></div> -->
+                    <div id="paperBoard"></div>
+                    <div id="cCamera"> 
+                        <video id="video" width="275" height="365" autoplay data-state="on"></video>
+                        
+                    </div>
+                   
+                </div>
             </div>
-            <div id="cImg"> 
-                <label>Image File</label><br/>
-                <input type="file" id="imageLoader" name="imageLoader" onClick="f1()"/>
-                <canvas id="imageCanvas"></canvas>
+            <div class="column half"></div>
+            <div class="column half">
+                <button id="snap">Snap Photo</button>
+                <canvas id="canvas2" width="366" height="550"></canvas>
+                 <div id="cImg"> 
+                        <label>Image File</label><br/>
+                        <input type="file" id="imageLoader" name="imageLoader"/>
+                        <canvas id="imageCanvas"></canvas>
+                    </div>
             </div>
         </div>
     </div>

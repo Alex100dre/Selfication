@@ -1,12 +1,61 @@
 .wrapper550{
-    width: 960px;
-    height:720px;
+    width: 760px;
+    height:570px;
     margin: 0 auto;
+    background: url('../img/maquette/bg.png') no-repeat;
+    padding-top: 35px;
 }
-
+#logo{
+    background: url('../img/maquette/logo.png') no-repeat;
+    width: 280px;
+    height: 165px;
+}
+.showThumbnail{
+    background-image:url('../img/maquette/galerie.png');
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+    z-index: 1000;
+    margin-top: -53px;
+}
+.thumbnailContainer{
+    margin-top: -500px;
+    position: relative;
+    z-index: 1000;
+    background-color: gold;
+}
 .thumbnail{
     display: inline-block;
     margin:5px;
     width:100px;    
     height:100px;    
+}
+.hidden{
+    visibility: hidden;
+}
+video{
+    position: absolute;
+    top : 50px;
+    margin-left: 27px;
+}
+.large{
+    margin-left: 27px;
+    margin-top: -461px;
+    position: absolute;
+    z-index: 666;
+}
+.gerard{
+    background: url('../img/maquette/gerard.png') no-repeat;
+    width: 461px;
+    height: 357px;
+    position: relative;
+    z-index: 999;
+}
+#paperBoard{
+    background: url('../img/maquette/paperBoard.png') no-repeat;
+    width:327px;
+    height:531px;
+    margin-top :-10px;
 }

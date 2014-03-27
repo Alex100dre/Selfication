@@ -33,7 +33,9 @@ app.camera = {
                 }, errBack);
             }
             document.getElementById("snap").addEventListener("click", function() {
-                context.drawImage(video, 0, 0, 640, 480);
+                context.drawImage(video, 0, 35, 275, 206);
+                var cadreF=document.getElementById("cadre");
+                context.drawImage(cadreF, 0, 0, 275, 365);
             });
 
         }, false);

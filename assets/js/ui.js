@@ -2,9 +2,21 @@ app.ui = {
 
     initStream: function(){
         this.gridToDom();
+        this.showThumbnail();
     },
+
     initUpload: function(){
         this.gridToCanvas();
+    },
+
+    showThumbnail: function(){
+
+        $("body").on('click', '.showThumbnail', function(event) {
+            event.preventDefault();
+            console.log('pouf');
+            $('.thumbnailContainer').toggleClass('hidden');
+            // au clic on appel la fonction generateCadre avec l'url de l'image en parametre 
+        });
     },
 
     gridToCanvas: function(){
@@ -17,6 +29,7 @@ app.ui = {
             // au clic on appel la fonction generateCadre avec l'url de l'image en parametre 
         });
     },
+
     gridToDom: function(){
         // var that = this;
         $("body").on('click', '.thumbnail', function(event) {
